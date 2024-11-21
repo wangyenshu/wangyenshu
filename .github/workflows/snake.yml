@@ -1,10 +1,22 @@
-- uses: Platane/snk@v3
-  with:
-    # GitHub user name to read the contribution graph from (**required**)
-    github_user_name: ${{ github.repository_owner }}
+name: Generate GitHub Snake
 
-    # List of files to generate.
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub Snake
+        uses: Platane/snk@v3
+        with:
+          # GitHub user name to read the contribution graph from (**required**)
+          github_user_name: ${{ github.repository_owner }}
+
+          # List of files to generate.
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
