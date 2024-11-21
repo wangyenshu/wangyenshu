@@ -6,9 +6,6 @@
     # github user name
     github_user_name: wangyenshu
     # list of files to generate.
-
- supported query string options:
-
 - palette:      github-dark
 - color_snake:  blue
 - color_dots:   #bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
