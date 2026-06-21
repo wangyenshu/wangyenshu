@@ -1,3 +1,7 @@
+Hi! Here is my [academic homepage](https://wangyenshu.github.io/wangyanshu/).
+
+Contact me by `<GitHub username>@outlook.com`.
+
 Pinned Repository:
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wangyenshu&repo=fricas-wasm)](https://github.com/wangyenshu/fricas-wasm)
