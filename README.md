@@ -1,4 +1,6 @@
-Hi! Here is my [academic homepage](&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#119;&#97;&#110;&#103;&#121;&#101;&#110;&#115;&#104;&#117;&#46;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#105;&#111;&#47;&#119;&#97;&#110;&#103;&#121;&#97;&#110;&#115;&#104;&#117;&#47;).
+Hi! Here is my [academic homepage][https://wangyenshu.github.io/wangyenshu].
+
+[https://wangyenshu.github.io/wangyenshu]: https://%77%61%6e%67%79%65%6e%73%68%75.%67%69%74%68%75%62.%69%6f/%77%61%6e%67%79%61%6e%73%68%75/
 
 Contact me by `<GitHub username>@outlook.com`.
 
